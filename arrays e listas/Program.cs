@@ -34,7 +34,7 @@ public class Program {
         listaDEnomes.InsertRange(0, nome);//adiciona uma lista em outra na posição que vc quiser
         foreach (string str in listaDEnomes)
         {
-            Console.WriteLine(str);//repassa e percorre o array
+            Console.WriteLine(str[0]);//repassa e percorre o array
         }
 
 
